@@ -23,7 +23,7 @@ public class Tablice {
     public static int[] przygotujWariant(int[] tablica, double wariant) {
         int[] kopia = tablica.clone();
         if (wariant == -1.0) {
-
+            java.util.Arrays.sort(kopia);
             odwrocTablice(kopia);
 
         } else {

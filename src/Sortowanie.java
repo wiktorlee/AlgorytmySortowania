@@ -3,7 +3,7 @@ import java.util.Locale;
 public class Sortowanie {
     public static final double[] WARIANTY = {0.0, 0.25, 0.5, 0.75, 0.95, 0.99, 0.997, 1.0, -1.0};
     private static final int LICZBA_TABLIC = 100;
-    public static final int ROZMIAR_TABLICY = 100000;
+    public static final int ROZMIAR_TABLICY = 1000000;
 
     public static void przeprowadzTesty() {
         CSVZapis.zapiszNaglowek();  // Zapisz nagłówek CSV
