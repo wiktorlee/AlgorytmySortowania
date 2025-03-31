@@ -35,7 +35,7 @@ public class Sortowanie {
 
                 for (int j = 0; j < 3; j++) {
                     String algorytm = (j == 0) ? "ShellSort" : (j == 1) ? "MergeSort" : "QuickSort";
-                    System.out.println("\n🔹 " + algorytm + ":");
+                    System.out.println("\n " + algorytm + ":");
 
                     int[] tablicaDoSortowania = tabliceDanych[i][j];  // Wybierz odpowiednią tablicę z 3D
                     long startTime = System.nanoTime();               // rozpoczecie pomiaru czasu
