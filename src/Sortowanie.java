@@ -11,7 +11,7 @@ public class Sortowanie {
                                                                                  // gdzie [warianty][rodzaj algorytmu][zawartosc]
 
         for (int t = 0; t < LICZBA_TABLIC; t++) {
-            System.out.println("\n🔹 TEST DLA TABLICY " + (t + 1));
+            System.out.println("\n TEST DLA TABLICY " + (t + 1));
             int[] tablicaBazowa = Tablice.generujTablice(ROZMIAR_TABLICY);  //generowanie pojedynczej tablicy
 
             int numerTestu = t + 1;  // numer testu potrzebny przy zapisie CSV
